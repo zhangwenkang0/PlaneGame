@@ -1,0 +1,38 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Plane - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\kang\AppData\Local\Temp\RSPCA73.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/Plane.pdb" /machine:I386 /out:"Release/Plane.exe" 
+.\Release\Main.obj
+]
+Creating command line "link.exe @C:\Users\kang\AppData\Local\Temp\RSPCA73.tmp"
+<h3>Output Window</h3>
+Linking...
+Main.obj : error LNK2001: unresolved external symbol "public: void __thiscall hgeParticleSystem::Fire(void)" (?Fire@hgeParticleSystem@@QAEXXZ)
+Main.obj : error LNK2001: unresolved external symbol "public: bool __thiscall hgeRect::Intersect(class hgeRect const *)const " (?Intersect@hgeRect@@QBE_NPBV1@@Z)
+Main.obj : error LNK2001: unresolved external symbol "public: void __thiscall hgeParticleSystem::Update(float)" (?Update@hgeParticleSystem@@QAEXM@Z)
+Main.obj : error LNK2001: unresolved external symbol "public: void __thiscall hgeParticleSystem::MoveTo(float,float,bool)" (?MoveTo@hgeParticleSystem@@QAEXMM_N@Z)
+Main.obj : error LNK2001: unresolved external symbol "public: void __thiscall hgeSprite::Render(float,float)" (?Render@hgeSprite@@QAEXMM@Z)
+Main.obj : error LNK2001: unresolved external symbol "public: void __cdecl hgeFont::printf(float,float,int,char const *,...)" (?printf@hgeFont@@QAAXMMHPBDZZ)
+Main.obj : error LNK2001: unresolved external symbol "public: void __thiscall hgeParticleSystem::Stop(bool)" (?Stop@hgeParticleSystem@@QAEX_N@Z)
+Main.obj : error LNK2001: unresolved external symbol "public: void __thiscall hgeParticleSystem::Render(void)" (?Render@hgeParticleSystem@@QAEXXZ)
+Main.obj : error LNK2001: unresolved external symbol "public: __thiscall hgeParticleSystem::hgeParticleSystem(char const *,class hgeSprite *)" (??0hgeParticleSystem@@QAE@PBDPAVhgeSprite@@@Z)
+Main.obj : error LNK2001: unresolved external symbol "public: __thiscall hgeFont::hgeFont(char const *,bool)" (??0hgeFont@@QAE@PBD_N@Z)
+Main.obj : error LNK2001: unresolved external symbol "public: __thiscall hgeSprite::hgeSprite(unsigned long,float,float,float,float)" (??0hgeSprite@@QAE@KMMMM@Z)
+Main.obj : error LNK2001: unresolved external symbol _hgeCreate@4
+Release/Plane.exe : fatal error LNK1120: 12 unresolved externals
+Ö´ÐÐ link.exe Ê±³ö´í.
+
+
+
+<h3>Results</h3>
+Plane.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
